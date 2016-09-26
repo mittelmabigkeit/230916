@@ -28,3 +28,15 @@ b.reverse();
 console.log(b);
 a.sort();
 console.log(a);
+console.log(b.slice(2,3));
+console.log(b.splice(2,3));
+a.forEach(function(item, i, arr) {
+  console.log( i + ": " + item + " (массив:" + arr + ")" );
+});
+b.map(Math.sqrt);
+console.log(b);
+function avav(value) {
+  return value >= 10;
+}
+var vvv = [12, 5, 8, 130, 44].filter(avav);
+console.log(vvv);
